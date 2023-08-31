@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML Tutorials | CodeBustler</title>
+    <link rel="icon" type="image/png" href="./img/html.png" />
+    <!-- CSS External -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <!-- JS External -->
+    <script defer src="./script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title">Image Map | HTML</h1>
+    <!-- Image | usemap attribute is for relationship with map name -->
+    <img src="./img/workplace.jpg" alt="workplace" usemap="#workplace" />
+
+    <!-- Image Map | With 3 Different Shapes -->
+    <map name="workplace">
+      <!-- 2 Coordinates | x,y  x,y  -->
+      <area shape="rect" coords="28,40, 276,352" href="https://www.apple.com" />
+
+      <!-- 1 Coordinates | Center x,y & Radius  -->
+      <area shape="circle" coords="340,290, 50" href="https://www.google.com" />
+
+      <!-- Several Coordinates -->
+      <area
+        shape="poly"
+        coords="350,38,385,20, 399,32, 395,60, 252, 40"
+        href="https://www.youtube.com"
+      />
+    </map>
+  </body>
+</html>
+
+<!-- Code Generator : https://imagemap.org/ -->
